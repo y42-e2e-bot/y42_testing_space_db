@@ -1,5 +1,5 @@
 {
-  "cronExpression": "",
+  "cronExpression": "0/30 * 1/1 * *",
   "forceSchedule": false,
   "linkDataArray": [
     {
