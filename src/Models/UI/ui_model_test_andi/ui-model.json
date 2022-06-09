@@ -1,5 +1,99 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "b7e296d1-dde7-4c88-9ee1-50bc756bbaaf",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "b7e296d1-dde7-4c88-9ee1-50bc756bbaaf",
+        "title": "carData-carData",
+        "transformationType": "INPUT",
+        "datasourceName": "google_sheet_test_andi",
+        "transformObject": {
+          "source": "src/Integrations/google_sheet_test_andi",
+          "table": "src/Integrations/google_sheet_test_andi/carData-carData",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-402 -110"
+    },
+    {
+      "key": "bb729682-380b-454d-8c07-504ecb768a1b",
+      "type": "GROUP_BY",
+      "category": "GROUP_BY",
+      "transformationStep": {
+        "id": "bb729682-380b-454d-8c07-504ecb768a1b",
+        "title": "",
+        "transformationType": "GROUP_BY",
+        "transformObject": {
+          "columns": [
+            {
+              "name": "model",
+              "alias": "models",
+              "func": "COUNT_DISTINCT"
+            }
+          ],
+          "groupBy": [
+            "make"
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-128 -109"
+    },
+    {
+      "key": "e7655cba-6e35-4fff-9cb9-ad0bc7746e4d",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "e7655cba-6e35-4fff-9cb9-ad0bc7746e4d",
+        "title": "ui_model_test_andi",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "ui_model_test_andi",
+          "fields": [
+            {
+              "target": "make",
+              "source": "make",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "models",
+              "source": "models",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "188 -111"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "b7e296d1-dde7-4c88-9ee1-50bc756bbaaf",
+      "to": "bb729682-380b-454d-8c07-504ecb768a1b"
+    },
+    {
+      "from": "bb729682-380b-454d-8c07-504ecb768a1b",
+      "to": "e7655cba-6e35-4fff-9cb9-ad0bc7746e4d"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
