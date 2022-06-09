@@ -47,20 +47,24 @@
     ],
     "visualDataArray": [],
     "nodeStatusArray": {
-      "ad567525-a963-4858-b6f0-e51d273ceb05": "pending"
+      "ad567525-a963-4858-b6f0-e51d273ceb05": "ready",
+      "1a0a7edd-d88d-4004-858b-9a75934467a7": "pending"
     },
     "jobs": {
       "ad567525-a963-4858-b6f0-e51d273ceb05": {
         "run": "src/Integrations/google_sheet_test_andi/carData-carData/.y42/run_220609135348_89b889af-8de2-59e6-bb4a-a0edd3551ff5.json"
+      },
+      "1a0a7edd-d88d-4004-858b-9a75934467a7": {
+        "run": "src/Models/UI/ui_model_test_andi/ui_model_test_andi/.y42/run_220609135443_66758b36-f508-5cf1-bab2-81511f150112.json"
       }
     }
   },
   "created_at": "2022-06-09T13:53:47.058723+00:00",
   "finished_at": null,
   "latest_pulse_at": null,
-  "updated_at": "2022-06-09T13:53:48.150566+00:00",
+  "updated_at": "2022-06-09T13:54:43.711498+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "61fd4c5b-7826-4333-b2ba-0df6bbaa9f6e",
-  "_signature": "PGmANsJDKrvwFElDgJHuCsq/oHlPlyO8F/sMRmEkwC9z1pHjByU+zmeULfg68ZBfln3OWHRXJqGUzhOCcfV7CA=="
+  "_lock_token": "ece979f0-a113-45eb-abee-d435339b5d77",
+  "_signature": "/tKxvckwjcI7YdfQEA6F4oVPY6oz/s0JqVtQs4Go/xfnQ1OPdxh/iM8l2VyjvDqMRyYUdgnJ9bqHY/XsFHXjBg=="
 }
