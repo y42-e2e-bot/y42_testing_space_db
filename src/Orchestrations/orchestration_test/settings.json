@@ -1,7 +1,31 @@
 {
   "cronExpression": "",
   "forceSchedule": false,
-  "linkDataArray": [],
-  "nodeDataArray": [],
+  "linkDataArray": [
+    {
+      "from": "ad567525-a963-4858-b6f0-e51d273ceb05",
+      "to": "1a0a7edd-d88d-4004-858b-9a75934467a7"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "ad567525-a963-4858-b6f0-e51d273ceb05",
+      "path": "src/Integrations/google_sheet_test_andi/carData-carData",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "1a0a7edd-d88d-4004-858b-9a75934467a7",
+      "path": "src/Models/UI/ui_model_test_andi/ui_model_test_andi",
+      "location": "524.0456949966158 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
