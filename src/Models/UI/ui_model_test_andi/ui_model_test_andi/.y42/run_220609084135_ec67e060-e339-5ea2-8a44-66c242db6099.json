@@ -1,6 +1,6 @@
 {
   "request_id": "220609084135_ec67e060-e339-5ea2-8a44-66c242db6099",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "1451ff3c-2e1e-4816-8425-1db72e35a862",
     "source_settings": {
@@ -34,5 +34,28 @@
     }
   },
   "created_at": "2022-06-09T08:41:35.390590+00:00",
-  "_signature": "MXTEOhtKhy8fSz3Nc5230ySDLeLtELmi2boucbkLaA5mfQszMGaWzDeliu8pxAkh12OZzqJzjGIDa+q8j9nEBA=="
+  "finished_at": "2022-06-09T08:41:54.270573+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-09T08:41:54.270414+00:00",
+    "row_count": 58,
+    "current_import_row_count": 58,
+    "size_in_bytes": 953,
+    "external_id": "0193155c-5b1e-41b8-b3d5-af33e2758b4d",
+    "columns": [
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "models",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "134284b2b9c65be513f9344a6414d6bb",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_testingspace_7e405e731ad04abd8b05004beb242fe9&t=134284b2b9c65be513f9344a6414d6bb&page=table"
+  },
+  "_signature": "QvCksbwji/2wdlkCxtU9PV0n5q81cnzLBUX8ASPHrCvWp06Sgx93Pv756TDzf9YaOIX4KjSRM2n3AQumpJjEAg=="
 }
