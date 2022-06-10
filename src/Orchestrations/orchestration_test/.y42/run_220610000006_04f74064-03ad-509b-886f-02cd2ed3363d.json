@@ -1,6 +1,6 @@
 {
   "run_id": "220610000006_04f74064-03ad-509b-886f-02cd2ed3363d",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target": {
       "storage": {
@@ -47,7 +47,7 @@
     "visualDataArray": [],
     "nodeStatusArray": {
       "ad567525-a963-4858-b6f0-e51d273ceb05": "ready",
-      "1a0a7edd-d88d-4004-858b-9a75934467a7": "pending"
+      "1a0a7edd-d88d-4004-858b-9a75934467a7": "ready"
     },
     "jobs": {
       "ad567525-a963-4858-b6f0-e51d273ceb05": {
@@ -59,11 +59,11 @@
     }
   },
   "created_at": "2022-06-10T00:00:06.865380+00:00",
-  "finished_at": null,
+  "finished_at": "2022-06-10T00:01:32.195348+00:00",
   "latest_pulse_at": null,
-  "updated_at": "2022-06-10T00:00:56.816859+00:00",
+  "updated_at": "2022-06-10T00:01:32.195413+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "51f1b083-2faf-4921-99f1-d9149b810816",
-  "_signature": "f3kVD2elWUzleLUVeP/ZPw5FHgwL+oAx/XZHlPVN2ZIDTQhnaOOH9b7YflOg1mSjdbQ3aRWD8VMMOIPcCj/oBA=="
+  "_lock_token": "1f11e33c-9192-49b3-8424-d015f12df825",
+  "_signature": "Go2pLMP7VG0v+IejuYCXYDGHXJZp+EESht1c6vVjVW5Zo86Mh5q29DhywdtrtAqL44gljhj0psCvWBKoM83kDw=="
 }
