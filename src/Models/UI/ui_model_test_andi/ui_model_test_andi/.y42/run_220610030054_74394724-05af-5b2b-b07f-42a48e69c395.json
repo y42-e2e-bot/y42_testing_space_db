@@ -1,0 +1,40 @@
+{
+  "request_id": "220610030054_74394724-05af-5b2b-b07f-42a48e69c395",
+  "status": "pending",
+  "request": {
+    "target_credentials": "1451ff3c-2e1e-4816-8425-1db72e35a862",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "e7655cba-6e35-4fff-9cb9-ad0bc7746e4d"
+    },
+    "created_at": "2022-06-10T03:00:54.975401+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/ui_model_test_andi/ui_model_test_andi",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "684943c8efe7b87179a551bce48e3d098fa58675"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/orchestration_test/.y42/run_220610030006_04f74064-03ad-509b-886f-02cd2ed3363d.json",
+      "trial": false
+    },
+    "previous_import_id": "220610023059_5be497b1-60b3-5682-8fcc-2232f358a42f",
+    "previous_table_id": "282fc80d3d53f9f6c794d4e819c079eb"
+  },
+  "created_at": "2022-06-10T03:00:54.975401+00:00",
+  "_signature": "1xVI4mmyB5sBuB5757xkjtPE761yzzWGPBFq9uacKwGrTobJQEsyirhvHoG2wvd7rZXrDUCdRePxe855jg/SAQ=="
+}
