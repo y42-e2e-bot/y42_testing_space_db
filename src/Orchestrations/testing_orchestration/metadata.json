@@ -3,8 +3,19 @@
   "name": "testing_orchestration",
   "description": "",
   "tags": [],
-  "owners": [],
-  "experts": [],
-  "watchers": [],
+  "owners": [
+    "hd@y42.com",
+    "johndoe@email.com",
+    "janedoe@email.com"
+  ],
+  "experts": [
+    "johndoe@email.com",
+    "janedoe@email.com"
+  ],
+  "watchers": [
+    "hd@y42.com",
+    "johndoe@email.com",
+    "janedoe@email.com"
+  ],
   "asset_status": "no status"
 }
