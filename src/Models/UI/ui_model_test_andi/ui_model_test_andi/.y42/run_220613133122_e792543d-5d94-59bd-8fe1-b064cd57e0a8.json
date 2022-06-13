@@ -1,6 +1,6 @@
 {
   "request_id": "220613133122_e792543d-5d94-59bd-8fe1-b064cd57e0a8",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "1451ff3c-2e1e-4816-8425-1db72e35a862",
     "source_settings": {
@@ -36,5 +36,28 @@
     "previous_table_id": "220613130122_2b25694e-0e90-5969-8dab-aa9816c4168d"
   },
   "created_at": "2022-06-13T13:31:22.165284+00:00",
-  "_signature": "SeIn/fnmmgQ1B4s0pz3tR+htbn9hBdEHMiUgS5JjBJnw8mV1jAElC2WS/Yvqi+hLcgKP3TmvgY+EUXA+gBY6Dg=="
+  "finished_at": "2022-06-13T13:31:41.420006+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-13T13:31:41.419900+00:00",
+    "row_count": 58,
+    "current_import_row_count": 58,
+    "size_in_bytes": 953,
+    "external_id": "92542eba-86a2-4eca-9904-40498f3352c9",
+    "columns": [
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "models",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220613133122_e792543d-5d94-59bd-8fe1-b064cd57e0a8",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_testingspace_7e405e731ad04abd8b05004beb242fe9&t=220613133122_e792543d-5d94-59bd-8fe1-b064cd57e0a8&page=table"
+  },
+  "_signature": "Iiy00tPHWuNy/9OQ5BXzuo0tVWoMfDHZ5rOJuxKWLFOMM76N+Wu/q+8a5mvFeRrLfsrk9Fqd/b5k3rIJD70vDw=="
 }
