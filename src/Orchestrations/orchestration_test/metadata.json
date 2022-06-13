@@ -3,7 +3,11 @@
   "name": "orchestration_test",
   "description": "",
   "tags": [],
-  "owners": [],
+  "owners": [
+    "hd@y42.com",
+    "johndoe@email.com",
+    "janedoe@email.com"
+  ],
   "experts": [],
   "watchers": [],
   "asset_status": "no status"
