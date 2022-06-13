@@ -1,0 +1,61 @@
+{
+  "accounts": [
+    {
+      "id": "1PkvRuzeHDsxlQ977kv2SoUDRjQozNMQOZlDDlIivCms",
+      "name": "Visualization - Y42 v2.0 Testing"
+    },
+    {
+      "id": "18wAW50YeGJQwkuBsEVXQrkHQplMqvtk_N52NnNoOI-E",
+      "name": "Model testing strategy"
+    },
+    {
+      "id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0",
+      "name": "List of Attendees - Gym"
+    },
+    {
+      "id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s",
+      "name": "OKR Tracker "
+    },
+    {
+      "id": "16CqZD3R54W1G0UpnEakv5jsHmdUPfK3YRYg8MoY8NV4",
+      "name": "Orchestration testing strategy"
+    },
+    {
+      "id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc",
+      "name": "Product & Engineering Org (Deprecated)"
+    },
+    {
+      "id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY",
+      "name": "Internal Customer Referral"
+    },
+    {
+      "id": "1Ho4ILhLaa8KgTtI28-FVi1ERtkCohssUvZdo4Hq-9CE",
+      "name": "data_types"
+    },
+    {
+      "id": "1F2HMR-VXVD200qs58XaW9wOWTiIsXDZhi-bChQ5yq-U",
+      "name": "Circular Std Typography Use"
+    },
+    {
+      "id": "1HgQaA2il8AuGJGnwDWedlIr6gSLlK7cRvTPhqCAztTc",
+      "name": "demo_data"
+    },
+    {
+      "id": "1UoEclHqAJ6-y3fgfgWRJQBoYfm60XdKTxUFAumguCuE",
+      "name": "carData"
+    },
+    {
+      "id": "1GZsN6dk1_Sf2copuGsjrbbSoQMSIIffQ3PWXgF9s5jQ",
+      "name": "Candidates Referral Sheet"
+    },
+    {
+      "id": "1h8HUL_K9SR9vO-9ah8TU3FkvMdKj8Qiij5Plfx_a3pM",
+      "name": "OKR Teams"
+    },
+    {
+      "id": "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms",
+      "name": "Example Spreadsheet"
+    }
+  ],
+  "_signature": "e9gShFhumL1TpPTtTJwesd7t/3KBDPV4ELK8GsIt31xlXmMrv7NesVMM9jrTSI6NxNtaaoGgUDjqjfCyN6l/DQ=="
+}
