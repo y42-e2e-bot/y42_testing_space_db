@@ -1,0 +1,380 @@
+{
+  "streams": [
+    {
+      "group": "Numeric",
+      "stream": "Numeric-Sheet1",
+      "table_name": "Numeric-Sheet1",
+      "tap_stream_id": "1PWvpeHMPTYmn0jyrqcI-OMPdJu3akD6pT1aXl9-daRE/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Clickup tickets integrations",
+      "stream": "Clickup tickets integrations-integrations",
+      "table_name": "Clickup tickets integrations-integrations",
+      "tap_stream_id": "1QWHgSBUaRn-rmQuIAiRglsVsX28D1YufGW_XRJotm3Y/integrations",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "CS critical automations",
+      "stream": "CS critical automations-high and urgent",
+      "table_name": "CS critical automations-high and urgent",
+      "tap_stream_id": "1X3z0DSmwyxT8b6g6nLVHyLzKwTDfNTLyT0xz32pjNTs/high and urgent",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Clickup Tickets to check orchestration",
+      "stream": "Clickup Tickets to check orchestration-Clickup",
+      "table_name": "Clickup Tickets to check orchestration-Clickup",
+      "tap_stream_id": "1UwrcfMVOgiHmiz9P5pteOWAhs1sxI_3pKqSCPE8iTOQ/Clickup",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Clickup tickets models",
+      "stream": "Clickup tickets models-dashboard",
+      "table_name": "Clickup tickets models-dashboard",
+      "tap_stream_id": "1n4zejimKJBW_yGMDF8LZG_J4_z_zBfxbi7GF7DTJYkM/dashboard",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Clickup dashboard- closed bugs weekly",
+      "stream": "Clickup dashboard- closed bugs weekly-Clickup dashboard- closed bugs weekly",
+      "table_name": "Clickup dashboard- closed bugs weekly-Clickup dashboard- closed bugs weekly",
+      "tap_stream_id": "1QlKHQsnCviV66q7uBpEVw1V3-YUpY_QAWrqpAMC7KtU/Clickup dashboard- closed bugs weekly",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Closed ticket per product",
+      "stream": "Closed ticket per product-Closed ticket per product",
+      "table_name": "Closed ticket per product-Closed ticket per product",
+      "tap_stream_id": "1baJOfJD8BZSPunqy4NVpoJhFE_OfsMOWDIhOwuEib_c/Closed ticket per product",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Clickup tickets dashboard",
+      "stream": "Clickup tickets dashboard-dashboard",
+      "table_name": "Clickup tickets dashboard-dashboard",
+      "tap_stream_id": "1rJOv-VCEwuMhnCg3FcFynJ5zaSWrep6aQ-p2mMBTUXY/dashboard",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Report of closed tickets",
+      "stream": "Report of closed tickets-Mirrored",
+      "table_name": "Report of closed tickets-Mirrored",
+      "tap_stream_id": "17iz09h0TUja6tS2YT973Yl9sFb9equo9jS63fOSnpws/Mirrored",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Closed ticket by product",
+      "stream": "Closed ticket by product-Mirrored closed ticket per product",
+      "table_name": "Closed ticket by product-Mirrored closed ticket per product",
+      "tap_stream_id": "1VujerwCycDddoTe-mVZVDXqos_oOoq6qqhGk86kdtfM/Mirrored closed ticket per product",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Model testing strategy",
+      "stream": "Model testing strategy-Sheet1",
+      "table_name": "Model testing strategy-Sheet1",
+      "tap_stream_id": "18wAW50YeGJQwkuBsEVXQrkHQplMqvtk_N52NnNoOI-E/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Orchestration testing strategy",
+      "stream": "Orchestration testing strategy-Sheet1",
+      "table_name": "Orchestration testing strategy-Sheet1",
+      "tap_stream_id": "16CqZD3R54W1G0UpnEakv5jsHmdUPfK3YRYg8MoY8NV4/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Source Prioritarization",
+      "stream": "Source Prioritarization-Sheet1",
+      "table_name": "Source Prioritarization-Sheet1",
+      "tap_stream_id": "1S8Flbrq6eGr3agoDFkwGYF0gWqVghIBRAN3jaOhBvTY/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "GSh test",
+      "stream": "GSh test-Sheet1",
+      "table_name": "GSh test-Sheet1",
+      "tap_stream_id": "1ghpBc5SSsoiCTYJyVsSozJ29ffFa8EJCiWtPHMn14FE/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Clickup tickets automations",
+      "stream": "Clickup tickets automations-automations",
+      "table_name": "Clickup tickets automations-automations",
+      "tap_stream_id": "12RN2qsMZjRrEsRiAUaPl1oUarR2kopzIyTxO4wAmHeI/automations",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Portofoglio Management",
+      "stream": "Portofoglio Management-Sheet1",
+      "table_name": "Portofoglio Management-Sheet1",
+      "tap_stream_id": "1lQ2D2kZNwlt1kHgtXmAjTSFXMT9z8OZ7tflb8tDWrac/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "NPS data",
+      "stream": "NPS data-NPS",
+      "table_name": "NPS data-NPS",
+      "tap_stream_id": "1adRQOgNO0NW-zTtOexcWaigklfvFCYoVqy9g8zmPNFo/NPS",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "comparazione data creazione vs data autorizazione GDD",
+      "stream": "comparazione data creazione vs data autorizazione GDD-comparazione data creazione vs data autorizazione GDD",
+      "table_name": "comparazione data creazione vs data autorizazione GDD-comparazione data creazione vs data autorizazione GDD",
+      "tap_stream_id": "1-LOqbSt8Ooh1S8CqOx6YQtXrKQUgi6hKRhPbjcgxlWw/comparazione data creazione vs data autorizazione GDD",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "my tessting sheet replace",
+      "stream": "my tessting sheet replace-Sheet1",
+      "table_name": "my tessting sheet replace-Sheet1",
+      "tap_stream_id": "1aAXfRFdjpmOYx5ZhnBaKS-BhzRpvHUrzUOjGtyOw2eg/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "zendesk-airtable-clickup",
+      "stream": "zendesk-airtable-clickup-zendesk-airtable-clickup",
+      "table_name": "zendesk-airtable-clickup-zendesk-airtable-clickup",
+      "tap_stream_id": "1_hnP8jkp8i4-3SRZpdJq7IZUFGqBGyKtufEQTH9b2UY/zendesk-airtable-clickup",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Problems faced during Zendesk to Airtable",
+      "stream": "Problems faced during Zendesk to Airtable-Sheet1",
+      "table_name": "Problems faced during Zendesk to Airtable-Sheet1",
+      "tap_stream_id": "1dgSzN2P1HwQgD-0nhtI-8EBguajFsE0oPAwGUiTZ72A/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Due date storage",
+      "stream": "Due date storage-due date storage",
+      "table_name": "Due date storage-due date storage",
+      "tap_stream_id": "1MNhum1j_wS9leXomW_Vv-9mD2pj1F5HjC7QN7U5fS1U/due date storage",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "my testtttttt",
+      "stream": "my testtttttt-my test",
+      "table_name": "my testtttttt-my test",
+      "tap_stream_id": "1rpqTvtC4W98J-8C9QxIYYkqn7j7tue9WbUyRWlRzeUc/my test",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Invoice",
+      "stream": "Invoice-Invoice",
+      "table_name": "Invoice-Invoice",
+      "tap_stream_id": "1gbT6469bqmd0ViS-NdIYHbDS_Fg9UpKqCyke9nJPrsU/Invoice",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Integration Descriptions",
+      "stream": "Integration Descriptions-Sheet1",
+      "table_name": "Integration Descriptions-Sheet1",
+      "tap_stream_id": "1wx-_iaA6y3dLnMAIb-ENPi6nqMBloEPTicSESw0oTl0/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "G1JpR9NSZymSstkbLj0n1ii93s6UB+UnI5U5qOmlOG6dIpjAI1Xxh8qrPO7Jgj1WBeBsGYml8He9KC3pEr0aBA=="
+}
