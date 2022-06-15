@@ -2,6 +2,25 @@
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "d17fddfa-4f00-4ca7-91b7-5d9da51e2736",
+      "path": "src/Integrations/GSH_15/Copy of Numeric2-Sheet1",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "6af23cc2-a8d9-47a3-9b76-9a536f128d39",
+      "path": "src/Integrations/GSH_15/Numeric-Sheet1",
+      "location": "0 62",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
