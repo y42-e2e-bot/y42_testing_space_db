@@ -1,10 +1,10 @@
 {
   "streams": [
     {
-      "group": "Numeric",
-      "stream": "Numeric-Sheet1",
-      "table_name": "Numeric-Sheet1",
-      "tap_stream_id": "1PWvpeHMPTYmn0jyrqcI-OMPdJu3akD6pT1aXl9-daRE/Sheet1",
+      "group": "Closed ticket per product",
+      "stream": "Closed ticket per product-Closed ticket per product",
+      "table_name": "Closed ticket per product-Closed ticket per product",
+      "tap_stream_id": "1baJOfJD8BZSPunqy4NVpoJhFE_OfsMOWDIhOwuEib_c/Closed ticket per product",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -20,6 +20,21 @@
       "stream": "Clickup tickets integrations-integrations",
       "table_name": "Clickup tickets integrations-integrations",
       "tap_stream_id": "1QWHgSBUaRn-rmQuIAiRglsVsX28D1YufGW_XRJotm3Y/integrations",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Numeric",
+      "stream": "Numeric-Sheet1",
+      "table_name": "Numeric-Sheet1",
+      "tap_stream_id": "1PWvpeHMPTYmn0jyrqcI-OMPdJu3akD6pT1aXl9-daRE/Sheet1",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -80,21 +95,6 @@
       "stream": "Clickup dashboard- closed bugs weekly-Clickup dashboard- closed bugs weekly",
       "table_name": "Clickup dashboard- closed bugs weekly-Clickup dashboard- closed bugs weekly",
       "tap_stream_id": "1QlKHQsnCviV66q7uBpEVw1V3-YUpY_QAWrqpAMC7KtU/Clickup dashboard- closed bugs weekly",
-      "schema": {
-        "properties": {
-          "auto_detect": {
-            "inclusion": "automatic",
-            "type": "object"
-          }
-        },
-        "type": "object"
-      }
-    },
-    {
-      "group": "Closed ticket per product",
-      "stream": "Closed ticket per product-Closed ticket per product",
-      "table_name": "Closed ticket per product-Closed ticket per product",
-      "tap_stream_id": "1baJOfJD8BZSPunqy4NVpoJhFE_OfsMOWDIhOwuEib_c/Closed ticket per product",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -376,5 +376,5 @@
       }
     }
   ],
-  "_signature": "G1JpR9NSZymSstkbLj0n1ii93s6UB+UnI5U5qOmlOG6dIpjAI1Xxh8qrPO7Jgj1WBeBsGYml8He9KC3pEr0aBA=="
+  "_signature": "Pk5BqMfd3XP3zuguefKWP4KiD3zRjNYF2/RihEfksyO4dLI3Y7I/tt63NakpLJMqlRfUGLjKk1i3Bcpc23svAQ=="
 }
