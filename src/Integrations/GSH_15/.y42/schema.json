@@ -1,6 +1,21 @@
 {
   "streams": [
     {
+      "group": "Numeric1",
+      "stream": "Numeric1-Sheet1",
+      "table_name": "Numeric1-Sheet1",
+      "tap_stream_id": "1PWvpeHMPTYmn0jyrqcI-OMPdJu3akD6pT1aXl9-daRE/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
       "group": "Closed ticket per product",
       "stream": "Closed ticket per product-Closed ticket per product",
       "table_name": "Closed ticket per product-Closed ticket per product",
@@ -20,21 +35,6 @@
       "stream": "Clickup tickets integrations-integrations",
       "table_name": "Clickup tickets integrations-integrations",
       "tap_stream_id": "1QWHgSBUaRn-rmQuIAiRglsVsX28D1YufGW_XRJotm3Y/integrations",
-      "schema": {
-        "properties": {
-          "auto_detect": {
-            "inclusion": "automatic",
-            "type": "object"
-          }
-        },
-        "type": "object"
-      }
-    },
-    {
-      "group": "Numeric",
-      "stream": "Numeric-Sheet1",
-      "table_name": "Numeric-Sheet1",
-      "tap_stream_id": "1PWvpeHMPTYmn0jyrqcI-OMPdJu3akD6pT1aXl9-daRE/Sheet1",
       "schema": {
         "properties": {
           "auto_detect": {
@@ -376,5 +376,5 @@
       }
     }
   ],
-  "_signature": "Pk5BqMfd3XP3zuguefKWP4KiD3zRjNYF2/RihEfksyO4dLI3Y7I/tt63NakpLJMqlRfUGLjKk1i3Bcpc23svAQ=="
+  "_signature": "Ji3dd1mwdXEBDQqsItpKC33xZ+rzJiMAS1QVA/JEhgiPSdCfnntI/VReIdP5/Ql4EILBEfY4iLq5DnPE1CcWCQ=="
 }
