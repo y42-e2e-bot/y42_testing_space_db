@@ -1,5 +1,191 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
+        "title": "src/Integrations/GSH_15/Copy of Numeric2-Sheet1",
+        "transformationType": "INPUT",
+        "datasourceName": "GSH 15",
+        "transformObject": {
+          "source": "src/Integrations/GSH_15",
+          "table": "src/Integrations/GSH_15/Copy of Numeric2-Sheet1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-394.2314049586777 -203.6320754716981"
+    },
+    {
+      "key": "a3bf04e3-cb3a-4625-9f2f-c6eb29db2f2e",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "a3bf04e3-cb3a-4625-9f2f-c6eb29db2f2e",
+        "title": "end_model",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "end_model",
+          "fields": [
+            {
+              "target": "id",
+              "source": "id",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "pozitive_numbers",
+              "source": "pozitive_numbers",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "decimal_numbers",
+              "source": "decimal_numbers",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative",
+              "source": "negative",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative_double",
+              "source": "negative_double",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "text",
+              "source": "text",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_repeatable",
+              "source": "id_repeatable",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_text_repeatable_",
+              "source": "id_text_repeatable_",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_of_mix",
+              "source": "id_of_mix",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "boolean",
+              "source": "boolean",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_time",
+              "source": "date_time",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "time",
+              "source": "time",
+              "type": "TIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-80.51239669421489 -211.68867924528303"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
+      "to": "a3bf04e3-cb3a-4625-9f2f-c6eb29db2f2e"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
