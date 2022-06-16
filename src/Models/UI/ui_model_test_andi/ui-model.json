@@ -83,6 +83,56 @@
       "isGroup": true,
       "group": "",
       "location": "188 -111"
+    },
+    {
+      "key": "d65e2f35-32c4-464a-b5b7-ed76569758a9",
+      "type": "FILTER",
+      "category": "FILTER",
+      "transformationStep": {
+        "id": "d65e2f35-32c4-464a-b5b7-ed76569758a9",
+        "title": "",
+        "transformationType": "FILTER",
+        "transformObject": {
+          "global_op": [
+            "OR"
+          ],
+          "filterOps": [
+            {
+              "variable_field_name": "id",
+              "variable_type": "INTEGER",
+              "operations": [
+                {
+                  "operator": "-",
+                  "value_type": "NONE",
+                  "operator_type": "absolute",
+                  "values": [
+                    1,
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "variable_field_name": "id",
+              "variable_type": "INTEGER",
+              "operations": [
+                {
+                  "operator": "-",
+                  "value_type": "NONE",
+                  "operator_type": "absolute",
+                  "values": [
+                    5,
+                    7
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-189 82"
     }
   ],
   "linkDataArray": [
@@ -93,6 +143,10 @@
     {
       "from": "bb729682-380b-454d-8c07-504ecb768a1b",
       "to": "e7655cba-6e35-4fff-9cb9-ad0bc7746e4d"
+    },
+    {
+      "from": "b7e296d1-dde7-4c88-9ee1-50bc756bbaaf",
+      "to": "d65e2f35-32c4-464a-b5b7-ed76569758a9"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
