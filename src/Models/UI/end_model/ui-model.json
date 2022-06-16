@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-394.2314049586777 -203.6320754716981"
+      "location": "-1627.2314049586776 -40.6320754716981"
     },
     {
       "key": "a3bf04e3-cb3a-4625-9f2f-c6eb29db2f2e",
@@ -178,13 +178,574 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-80.51239669421489 -211.68867924528303"
+      "location": "-58.512396694214885 -271.688679245283"
+    },
+    {
+      "key": "ec769357-311d-441e-bfde-04df90ff1c11",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "ec769357-311d-441e-bfde-04df90ff1c11",
+        "title": "end_model_1",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "end_model_1",
+          "fields": [
+            {
+              "target": "id",
+              "source": "id",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "pozitive_numbers",
+              "source": "pozitive_numbers",
+              "type": "STRING",
+              "display": true,
+              "changed": true,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "decimal_numbers",
+              "source": "decimal_numbers",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative",
+              "source": "negative",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative_double",
+              "source": "negative_double",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "text",
+              "source": "text",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_repeatable",
+              "source": "id_repeatable",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_text_repeatable_",
+              "source": "id_text_repeatable_",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_of_mix",
+              "source": "id_of_mix",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "boolean",
+              "source": "boolean",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_time",
+              "source": "date_time",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "time",
+              "source": "time",
+              "type": "TIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "sdf",
+              "source": "sdf",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-438.2314049586777 -198.68867924528297"
+    },
+    {
+      "key": "c4e86f6c-8564-44e0-ac4d-47daefc35bd5",
+      "type": "REPLACE",
+      "category": "REPLACE",
+      "transformationStep": {
+        "id": "c4e86f6c-8564-44e0-ac4d-47daefc35bd5",
+        "title": "",
+        "transformationType": "REPLACE",
+        "transformObject": [
+          {
+            "target": "sdf",
+            "outputType": "STRING",
+            "manipulationType": "Replace",
+            "manipulation": {
+              "targetColumn": "text",
+              "cases": [
+                {
+                  "token": "null",
+                  "fullMatch": false,
+                  "caseSensitive": false,
+                  "replaceWith": "sdfsdf",
+                  "isNull": true
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-897.4586776859504 -126.23584905660368"
+    },
+    {
+      "key": "b3a7a774-b4a5-4ff0-a1b6-8e65c9adcefe",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "b3a7a774-b4a5-4ff0-a1b6-8e65c9adcefe",
+        "title": "end_model_2",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "end_model_2",
+          "fields": [
+            {
+              "target": "id",
+              "source": "id",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "pozitive_numbers",
+              "source": "pozitive_numbers",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "decimal_numbers",
+              "source": "decimal_numbers",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative",
+              "source": "negative",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative_double",
+              "source": "negative_double",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "text",
+              "source": "text",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_repeatable",
+              "source": "id_repeatable",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_text_repeatable_",
+              "source": "id_text_repeatable_",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_of_mix",
+              "source": "id_of_mix",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "boolean",
+              "source": "boolean",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_time",
+              "source": "date_time",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "time",
+              "source": "time",
+              "type": "TIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "sdf",
+              "source": "sdf",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-446.8966942148761 -20.5"
+    },
+    {
+      "key": "5275b3a0-2ccc-4af0-855e-977c653aa808",
+      "type": "FILTER",
+      "category": "FILTER",
+      "transformationStep": {
+        "id": "5275b3a0-2ccc-4af0-855e-977c653aa808",
+        "title": "",
+        "transformationType": "FILTER",
+        "transformObject": {
+          "global_op": [
+            "AND"
+          ],
+          "filterOps": [
+            {
+              "variable_field_name": "pozitive_numbers",
+              "variable_type": "INTEGER",
+              "operations": [
+                {
+                  "operator": "is_empty",
+                  "values": []
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-990.47520661157 58.18867924528297"
+    },
+    {
+      "key": "be1fce02-b2e8-4fd1-9770-a845ffdff7d0",
+      "type": "FILTER",
+      "category": "FILTER",
+      "transformationStep": {
+        "id": "be1fce02-b2e8-4fd1-9770-a845ffdff7d0",
+        "title": "",
+        "transformationType": "FILTER",
+        "transformObject": {
+          "global_op": [
+            "AND"
+          ],
+          "filterOps": [
+            {
+              "variable_field_name": "text",
+              "variable_type": "STRING",
+              "operations": [
+                {
+                  "operator": "%_%",
+                  "value_type": "NONE",
+                  "operator_type": "absolute",
+                  "values": [
+                    "a"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1092.3264462809916 237.09433962264143"
+    },
+    {
+      "key": "6a238057-b260-4ecd-8338-3a015f5fc172",
+      "type": "PIVOT",
+      "category": "PIVOT",
+      "transformationStep": {
+        "id": "6a238057-b260-4ecd-8338-3a015f5fc172",
+        "title": "",
+        "transformationType": "PIVOT",
+        "transformObject": {
+          "selectColumns": [
+            "id"
+          ],
+          "aggregateFunction": "MIN",
+          "aggregateColumn": "id",
+          "pivotColumn": "id",
+          "pivotValues": [
+            "4"
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1268.1611570247933 386.004716981132"
+    },
+    {
+      "key": "396e5420-cce4-4ba4-a0f0-2f2cc52cde3b",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "396e5420-cce4-4ba4-a0f0-2f2cc52cde3b",
+        "title": "end_model_3",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "end_model_3",
+          "fields": [
+            {
+              "target": "val_4",
+              "source": "val_4",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-953.2355371900825 389.0424528301886"
+    },
+    {
+      "key": "a06423a4-1b58-42e2-8b21-a810a447d39d",
+      "type": "DATE_COMPARISON",
+      "category": "DATE_COMPARISON",
+      "transformationStep": {
+        "id": "a06423a4-1b58-42e2-8b21-a810a447d39d",
+        "title": "",
+        "transformationType": "DATE_COMPARISON",
+        "transformObject": [
+          {
+            "target": "abcabc",
+            "targetUnit": "HOUR",
+            "sourceColumn": {
+              "constant": "",
+              "column": "date",
+              "hasTimeZone": true,
+              "defaultTimezone": "UTC",
+              "selection": "column",
+              "defaultFormat": "YYYY-MM-DD"
+            },
+            "compareWith": {
+              "constant": "2022-06-16",
+              "showSigned": true,
+              "column": "date",
+              "hasTimeZone": true,
+              "defaultTimezone": "UTC",
+              "selection": "constant",
+              "defaultFormat": "YYYY-MM-DD"
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-1308.9297520661155 556.5141509433962"
     }
   ],
   "linkDataArray": [
     {
       "from": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
       "to": "a3bf04e3-cb3a-4625-9f2f-c6eb29db2f2e"
+    },
+    {
+      "from": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
+      "to": "c4e86f6c-8564-44e0-ac4d-47daefc35bd5"
+    },
+    {
+      "from": "c4e86f6c-8564-44e0-ac4d-47daefc35bd5",
+      "to": "ec769357-311d-441e-bfde-04df90ff1c11"
+    },
+    {
+      "from": "c4e86f6c-8564-44e0-ac4d-47daefc35bd5",
+      "to": "b3a7a774-b4a5-4ff0-a1b6-8e65c9adcefe"
+    },
+    {
+      "from": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
+      "to": "5275b3a0-2ccc-4af0-855e-977c653aa808"
+    },
+    {
+      "from": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
+      "to": "be1fce02-b2e8-4fd1-9770-a845ffdff7d0"
+    },
+    {
+      "from": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
+      "to": "6a238057-b260-4ecd-8338-3a015f5fc172"
+    },
+    {
+      "from": "6a238057-b260-4ecd-8338-3a015f5fc172",
+      "to": "396e5420-cce4-4ba4-a0f0-2f2cc52cde3b"
+    },
+    {
+      "from": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
+      "to": "a06423a4-1b58-42e2-8b21-a810a447d39d"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
