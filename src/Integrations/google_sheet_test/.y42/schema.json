@@ -1,0 +1,65 @@
+{
+  "streams": [
+    {
+      "group": "carData",
+      "stream": "carData-carData",
+      "table_name": "carData-carData",
+      "tap_stream_id": "1UoEclHqAJ6-y3fgfgWRJQBoYfm60XdKTxUFAumguCuE/carData",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "carData",
+      "stream": "carData-Sheet1",
+      "table_name": "carData-Sheet1",
+      "tap_stream_id": "1UoEclHqAJ6-y3fgfgWRJQBoYfm60XdKTxUFAumguCuE/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "data_types",
+      "stream": "data_types-MOCK_DATA (1)",
+      "table_name": "data_types-MOCK_DATA (1)",
+      "tap_stream_id": "1Ho4ILhLaa8KgTtI28-FVi1ERtkCohssUvZdo4Hq-9CE/MOCK_DATA (1)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "demo_data",
+      "stream": "demo_data-Sheet1",
+      "table_name": "demo_data-Sheet1",
+      "tap_stream_id": "1HgQaA2il8AuGJGnwDWedlIr6gSLlK7cRvTPhqCAztTc/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "nB2LUErA6vtjuiNZM7TFcfuQ7oH4scQmcWAnTj+TUxSLLxXCML/bu2a6qXIAvOfEqeuJVT4Fmgt7JN7d+eHyBg=="
+}
