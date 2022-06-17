@@ -1,0 +1,45 @@
+{
+  "request_id": "220617094924_580efbea-d634-545f-b540-2423ce8f0a60",
+  "status": "pending",
+  "request": {
+    "source_credentials": "ef07a17c-10f7-4399-89a0-69a134fbcb83",
+    "target_credentials": "7e0ff834-6fb4-47a8-b612-1cced70c8862",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/jira/0.0.0/source.json",
+      "start_date": "2021-06-16T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/jira/0.0.0/table",
+      "columns": [
+        "key",
+        "issueTypeId",
+        "value"
+      ],
+      "import": "issue_type_properties"
+    },
+    "created_at": "2022-06-17T09:49:24.971995+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/jira_test/issue_type_properties",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "04b7aa270a413884f042cc474ec183a35a2671ba"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "user",
+      "triggered_by_id": "1",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-17T09:49:24.971995+00:00",
+  "_signature": "ye8Q7YQLlq/uZEv6P6Io86MB5pvyCiqyQ1m/2JRSkGJT3Sm3U++b1Eg/O6Nw0qUU0OBfT6L5YuhCpL3ztLO1Cg=="
+}
