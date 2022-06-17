@@ -1,6 +1,6 @@
 {
   "request_id": "220617101215_24a7b046-e3ac-5b2a-a197-131d8d213fa4",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "7e0ff834-6fb4-47a8-b612-1cced70c8862",
     "source_settings": {
@@ -34,5 +34,8 @@
     }
   },
   "created_at": "2022-06-17T10:12:15.333379+00:00",
-  "_signature": "qOhuvNgRpmVsP18UCZLNcVbY/gvq+ibwtSk/rsq6y+REEHscCcE3A/wn6eLUiWTYVnPX2hH5dj2QtgZk4chcBQ=="
+  "failed_at": "2022-06-17T10:12:23.811908+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"no valid import, ignore latest run due to: database environment changed\",\"datetime\":\"2022-06-17T10:12:23.790217+00:00\",\"requestId\":\"8895e295-66f3-4903-b8bb-b9da39d0a563\",\"channel\":\"local\"}",
+  "_signature": "4xhCIy30A+2xJbo8j5s9wP+Px7wmSwyGAz7Yb/FIM2wCRK4wk+EqzwE30jVPtfkMsCKEN1GX7azdQRco3+xLDA=="
 }
