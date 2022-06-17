@@ -1,0 +1,46 @@
+{
+  "request_id": "220617071525_7e95623c-fd79-57ac-94a5-f58d25e77137",
+  "status": "pending",
+  "request": {
+    "source_credentials": "82f77d98-eca6-4480-b3e6-464ede5cfa0a",
+    "target_credentials": "7e0ff834-6fb4-47a8-b612-1cced70c8862",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "1UoEclHqAJ6-y3fgfgWRJQBoYfm60XdKTxUFAumguCuE/carData",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-06-17T07:15:25.701887+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/google_sheet_test_andi/carData-carData",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "8f369fd5a4518d8e6d3eeeaeb10f464c82b530ed"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "user",
+      "triggered_by_id": "1",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-17T07:15:25.701887+00:00",
+  "_signature": "tWZnxe3slMPM6JqsRVr7mhXfp5OCWiIe2JoOO4dBDpkvWUlDBrJIkzXYfwxi9JVcRR6VPy5F28fWmcCMSvJOBA=="
+}
