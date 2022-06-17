@@ -1,0 +1,51 @@
+{
+  "request_id": "220617093857_91f2ec8f-3886-59ae-bf6e-4a94fc571c2c",
+  "status": "pending",
+  "request": {
+    "source_credentials": "65f39bea-2c53-4aea-90ca-3056a8a9566d",
+    "target_credentials": "7e0ff834-6fb4-47a8-b612-1cced70c8862",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/jira/0.0.0/source.json",
+      "start_date": "2021-06-16T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/jira/0.0.0/table",
+      "columns": [
+        "id",
+        "type",
+        "project",
+        "group",
+        "role"
+      ],
+      "import": "filter_sharing",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-06-17T09:38:57.390090+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/jira_test_andi/filter_sharing",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "44deded1c95f41767b37638cc495bdb2da0fe143"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "user",
+      "triggered_by_id": "1",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-17T09:38:57.390090+00:00",
+  "_signature": "k417Czouz8sEsZulBhH8KNVLutoPYyv606ZJ/j34KczDpcx735VxiPSmb8TyuVkdnY8wuKQy1kRYj92z7dFmBA=="
+}
