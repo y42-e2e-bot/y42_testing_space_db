@@ -1,9 +1,0 @@
-{
-  "$schema": "https://s.y42.com/integrations/jira/0.0.0/table",
-  "columns": [
-    "key",
-    "issueTypeId",
-    "value"
-  ],
-  "import": "issue_type_properties"
-}
