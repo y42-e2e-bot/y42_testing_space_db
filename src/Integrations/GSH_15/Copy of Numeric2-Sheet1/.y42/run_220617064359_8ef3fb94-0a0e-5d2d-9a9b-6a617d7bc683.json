@@ -1,0 +1,46 @@
+{
+  "request_id": "220617064359_8ef3fb94-0a0e-5d2d-9a9b-6a617d7bc683",
+  "status": "pending",
+  "request": {
+    "source_credentials": "3b4d1d36-e7c0-4ec9-bee9-162e39dd1156",
+    "target_credentials": "7e0ff834-6fb4-47a8-b612-1cced70c8862",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "14SRE0irgnndPD6koB6mWZ8DEpSFAT9YH8nisPSnu2cg/Sheet1",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-06-17T06:43:59.169331+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/GSH_15/Copy of Numeric2-Sheet1",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "4c1c8b4a55bac92b71cd8abaa9401e7ef342420c"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/test/.y42/run_220617064358_7dca502b-c964-568e-bc46-a5c218abc300.json",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-17T06:43:59.169331+00:00",
+  "_signature": "ZupdvDVUmGdKmewboIW8uJeoGOY2ds25WkmLRUifsiFy+8n+6LIAXamUHIBLNUMlsEzfQFqKii1/gdgD9vNtCw=="
+}
