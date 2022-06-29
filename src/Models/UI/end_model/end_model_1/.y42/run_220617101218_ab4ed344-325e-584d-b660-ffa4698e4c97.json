@@ -1,6 +1,6 @@
 {
   "request_id": "220617101218_ab4ed344-325e-584d-b660-ffa4698e4c97",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "7e0ff834-6fb4-47a8-b612-1cced70c8862",
     "source_settings": {
@@ -34,5 +34,8 @@
     }
   },
   "created_at": "2022-06-17T10:12:18.439980+00:00",
-  "_signature": "dHdBvB8LjWMQmkAIkXY5rkkxvIfVyjH5MQJqoNahxlheqmk4cW7ldChDt4inwBYpTrVXMJ1+M39JT5EpBQp/Aw=="
+  "failed_at": "2022-06-17T10:12:27.078836+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"INFO\",\"message\":\"got view info\",\"datetime\":\"2022-06-17T10:12:26.961461+00:00\",\"requestId\":\"e0f6b7c6-28e6-4d95-8644-59b6e29b2ee2\",\"public\":true,\"node\":\"f8b2bf3f-b166-4862-bd32-9944447ce6d6\",\"table_id\":\"src/Integrations/GSH_15/Copy of Numeric2-Sheet1\",\"view_info\":[{\"success\":true,\"tables\":{\"src/Integrations/GSH_15/Copy of Numeric2-Sheet1\":{\"reason\":\"no valid import, ignore latest run due to: database environment changed\",\"valid\":false}}},{\"tables\":[\"src/Integrations/GSH_15/Copy of Numeric2-Sheet1\"]}],\"channel\":\"local\"}{\"severity\":\"ERROR\",\"message\":\"no valid import, ignore latest run due to: database environment changed\",\"datetime\":\"2022-06-17T10:12:26.961805+00:00\",\"requestId\":\"e0f6b7c6-28e6-4d95-8644-59b6e29b2ee2\",\"channel\":\"local\"}\n",
+  "_signature": "McaRqeyMwp+6WJQZuOoRUugoiErOxuRVsOvh36pWcf9xR0nqWw9sUMh5SEiUdS+zLK8ZfxKHPv/dWhRdNwFnBQ=="
 }
