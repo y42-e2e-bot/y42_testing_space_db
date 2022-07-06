@@ -1,14 +1,21 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.0/core/y42-metadata.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "orchestration_test",
   "description": "",
   "tags": [],
-  "owners": [
-    "hd@y42.com",
-    "johndoe@email.com",
-    "janedoe@email.com"
-  ],
-  "experts": [],
-  "watchers": [],
+  "owners": {
+    "user_ids": [
+      "hd@y42.com"
+    ],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
   "asset_status": "no status"
 }
