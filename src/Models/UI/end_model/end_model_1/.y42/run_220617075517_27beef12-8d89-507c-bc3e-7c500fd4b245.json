@@ -1,0 +1,41 @@
+{
+  "request_id": "220617075517_27beef12-8d89-507c-bc3e-7c500fd4b245",
+  "status": "invalid",
+  "request": {
+    "target_credentials": "7e0ff834-6fb4-47a8-b612-1cced70c8862",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "ec769357-311d-441e-bfde-04df90ff1c11"
+    },
+    "created_at": "2022-06-17T07:55:17.349286+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/end_model/end_model_1",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "45bacff07613f3618d6140bfb2d6c1f6e7a12e33"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "user",
+      "triggered_by_id": "23",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-17T07:55:17.349286+00:00",
+  "failed_at": "2022-06-17T07:55:24.551973+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"INFO\",\"message\":\"got view info\",\"datetime\":\"2022-06-17T07:55:24.465168+00:00\",\"requestId\":\"09a68dce-7448-4c65-93d4-0f37840c3372\",\"public\":true,\"node\":\"f8b2bf3f-b166-4862-bd32-9944447ce6d6\",\"table_id\":\"src/Integrations/GSH_15/Copy of Numeric2-Sheet1\",\"view_info\":[{\"success\":true,\"tables\":{\"src/Integrations/GSH_15/Copy of Numeric2-Sheet1\":{\"reason\":\"no valid import, ignore latest run due to: database environment changed\",\"valid\":false}}},{\"tables\":[\"src/Integrations/GSH_15/Copy of Numeric2-Sheet1\"]}],\"channel\":\"local\"}{\"severity\":\"ERROR\",\"message\":\"no valid import, ignore latest run due to: database environment changed\",\"datetime\":\"2022-06-17T07:55:24.465531+00:00\",\"requestId\":\"09a68dce-7448-4c65-93d4-0f37840c3372\",\"channel\":\"local\"}\n",
+  "_signature": "PECdN7oX19e33QrAzxQOvFszdmdYQDdCkpeRt1iGw3HT2zSFGhEkL/9KkTBwtRNJYHX/nO5N3wPTaUmuToccCw=="
+}

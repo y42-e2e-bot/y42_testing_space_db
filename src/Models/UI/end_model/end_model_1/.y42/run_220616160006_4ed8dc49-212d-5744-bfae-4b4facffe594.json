@@ -1,0 +1,121 @@
+{
+  "request_id": "220616160006_4ed8dc49-212d-5744-bfae-4b4facffe594",
+  "status": "ready",
+  "request": {
+    "target_credentials": "1451ff3c-2e1e-4816-8425-1db72e35a862",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "ec769357-311d-441e-bfde-04df90ff1c11"
+    },
+    "created_at": "2022-06-16T16:00:06.467691+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/end_model/end_model_1",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "d503e8bc5929e97c3c8238b89d5e8bd521e1aac0"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "user",
+      "triggered_by_id": "23",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-16T16:00:06.467691+00:00",
+  "finished_at": "2022-06-16T16:00:32.772949+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-16T16:00:32.772646+00:00",
+    "row_count": 6,
+    "current_import_row_count": 6,
+    "size_in_bytes": 451,
+    "external_id": "4cdd572a-f118-43b7-b289-0b566fc55094",
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "pozitive_numbers",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "decimal_numbers",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "negative",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "negative_double",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "text",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id_repeatable",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "id_text_repeatable_",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id_of_mix",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "boolean",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "date_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "time",
+        "data_type": "TIME",
+        "external_data_type": "TIME"
+      },
+      {
+        "field_name": "sdf",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220616160006_4ed8dc49-212d-5744-bfae-4b4facffe594",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_testingspace_7e405e731ad04abd8b05004beb242fe9&t=220616160006_4ed8dc49-212d-5744-bfae-4b4facffe594&page=table"
+  },
+  "_signature": "BvOU78Oqjwk2XWCZ3o3GsLbSg6blMVx2InBWr0jN9/8VlGavWkOCFIzCR5c36jWHQ76ojjLsOWCrYYXjISASCw=="
+}

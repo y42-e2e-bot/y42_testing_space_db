@@ -1,0 +1,41 @@
+{
+  "request_id": "220617101215_24a7b046-e3ac-5b2a-a197-131d8d213fa4",
+  "status": "invalid",
+  "request": {
+    "target_credentials": "7e0ff834-6fb4-47a8-b612-1cced70c8862",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "a3bf04e3-cb3a-4625-9f2f-c6eb29db2f2e"
+    },
+    "created_at": "2022-06-17T10:12:15.333379+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/end_model/end_model",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "3c6a1f0a88e7fc13eef4921c982f2171dbb55b17"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "user",
+      "triggered_by_id": "23",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-17T10:12:15.333379+00:00",
+  "failed_at": "2022-06-17T10:12:23.811908+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"no valid import, ignore latest run due to: database environment changed\",\"datetime\":\"2022-06-17T10:12:23.790217+00:00\",\"requestId\":\"8895e295-66f3-4903-b8bb-b9da39d0a563\",\"channel\":\"local\"}",
+  "_signature": "4xhCIy30A+2xJbo8j5s9wP+Px7wmSwyGAz7Yb/FIM2wCRK4wk+EqzwE30jVPtfkMsCKEN1GX7azdQRco3+xLDA=="
+}

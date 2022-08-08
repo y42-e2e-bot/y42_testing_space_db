@@ -1,0 +1,56 @@
+{
+  "request_id": "220616160005_3d12567f-22f0-5bd5-89fa-2ab9abe53a50",
+  "status": "ready",
+  "request": {
+    "target_credentials": "1451ff3c-2e1e-4816-8425-1db72e35a862",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "396e5420-cce4-4ba4-a0f0-2f2cc52cde3b"
+    },
+    "created_at": "2022-06-16T16:00:05.883610+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/end_model/end_model_3",
+        "id": "40:784cc691-6dd0-4193-a8ea-05ed214a62ac",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_testing_space_db",
+        "commit_sha": "d503e8bc5929e97c3c8238b89d5e8bd521e1aac0"
+      }
+    },
+    "context": {
+      "company_id": 40,
+      "company_slug": "fortestingpurposes",
+      "triggered_by_type": "user",
+      "triggered_by_id": "23",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-16T16:00:05.883610+00:00",
+  "finished_at": "2022-06-16T16:00:33.082199+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-16T16:00:33.082047+00:00",
+    "row_count": 1,
+    "current_import_row_count": 1,
+    "size_in_bytes": 8,
+    "external_id": "8396e86d-a970-4dc9-8b0a-bcc803fe1a41",
+    "columns": [
+      {
+        "field_name": "val_4",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220616160005_3d12567f-22f0-5bd5-89fa-2ab9abe53a50",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_testingspace_7e405e731ad04abd8b05004beb242fe9&t=220616160005_3d12567f-22f0-5bd5-89fa-2ab9abe53a50&page=table"
+  },
+  "_signature": "RQXqC7lSv8INAWFdw3fhoxZRCU88+KPGbWcXt55eBlGWY6geUPJHNscbunNgJbJsLI+jBggtH1r+2CI2NkUYBg=="
+}
