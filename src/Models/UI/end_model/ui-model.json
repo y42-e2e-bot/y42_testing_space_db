@@ -708,6 +708,19 @@
       "isGroup": true,
       "group": "",
       "location": "-1308.9297520661155 556.5141509433962"
+    },
+    {
+      "key": "a5b300d0-d93d-4e99-8453-40b893cedb72",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "a5b300d0-d93d-4e99-8453-40b893cedb72",
+        "title": "end_model_4",
+        "transformationType": "OUTPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-650.677685950413 118.752358490566"
     }
   ],
   "linkDataArray": [
@@ -746,6 +759,10 @@
     {
       "from": "f8b2bf3f-b166-4862-bd32-9944447ce6d6",
       "to": "a06423a4-1b58-42e2-8b21-a810a447d39d"
+    },
+    {
+      "from": "5275b3a0-2ccc-4af0-855e-977c653aa808",
+      "to": "a5b300d0-d93d-4e99-8453-40b893cedb72"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
